@@ -2,6 +2,7 @@ package com.audiobook.service;
 
 import com.audiobook.dto.LibraryItemDto;
 import com.audiobook.dto.event.LibraryEvent;
+import com.audiobook.dto.event.LibraryEventType;
 import com.audiobook.model.LibraryItem;
 import com.audiobook.model.User;
 import com.audiobook.repository.AudiobookRepository;
@@ -67,7 +68,7 @@ public class LibraryService {
         
         // Publish Kafka event
         LibraryEvent event = new LibraryEvent();
-        event.setEventType("ADDED");
+        event.setEventType(LibraryEventType.ADDED);
         event.setUserId(userId);
         event.setAudiobookId(audiobookId);
         event.setLibraryItemId(item.getId());
@@ -96,7 +97,7 @@ public class LibraryService {
         
         // Publish Kafka event
         LibraryEvent event = new LibraryEvent();
-        event.setEventType("POSITION_UPDATED");
+        event.setEventType(LibraryEventType.POSITION_UPDATED);
         event.setUserId(userId);
         event.setAudiobookId(item.getAudiobook().getId());
         event.setLibraryItemId(libraryItemId);
@@ -120,7 +121,7 @@ public class LibraryService {
         
         // Publish Kafka event
         LibraryEvent event = new LibraryEvent();
-        event.setEventType("FAVORITE_TOGGLED");
+        event.setEventType(LibraryEventType.FAVORITE_TOGGLED);
         event.setUserId(userId);
         event.setAudiobookId(item.getAudiobook().getId());
         event.setLibraryItemId(libraryItemId);

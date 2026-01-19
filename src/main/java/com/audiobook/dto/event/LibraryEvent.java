@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LibraryEvent {
-    private String eventType; // ADDED, POSITION_UPDATED, FAVORITE_TOGGLED
+    private LibraryEventType eventType;
     private String userId;
     private String audiobookId;
     private String libraryItemId;

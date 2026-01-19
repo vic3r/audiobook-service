@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A classic American novel about the Jazz Age, wealth, and the pursuit of the American Dream.",
+    "narrator": "Jake Gyllenhaal",
+    "durationMinutes": 180,
+    "price": "19.99",
+    "category": "Fiction",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81QuEGw8VPL.jpg",
+    "rating": 4.5,
+    "reviewCount": 1248
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A gripping tale of racial injustice and childhood innocence in the American South.",
+    "narrator": "Sissy Spacek",
+    "durationMinutes": 375,
+    "price": "24.99",
+    "category": "Fiction",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81gepf1eMqL.jpg",
+    "rating": 4.8,
+    "reviewCount": 2156
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian social science fiction novel about totalitarian surveillance.",
+    "narrator": "Simon Prebble",
+    "durationMinutes": 342,
+    "price": "22.99",
+    "category": "Fiction",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81zZEkP3gBL.jpg",
+    "rating": 4.6,
+    "reviewCount": 1834
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "An easy and proven way to build good habits and break bad ones.",
+    "narrator": "James Clear",
+    "durationMinutes": 320,
+    "price": "16.99",
+    "category": "Self-Help",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81YkqyaFVEL.jpg",
+    "rating": 4.7,
+    "reviewCount": 4523
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "description": "A powerful lesson in personal change and effectiveness.",
+    "narrator": "Stephen R. Covey",
+    "durationMinutes": 432,
+    "price": "21.99",
+    "category": "Self-Help",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/71wM6xRdvFL.jpg",
+    "rating": 4.5,
+    "reviewCount": 3892
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses.",
+    "narrator": "Eric Ries",
+    "durationMinutes": 312,
+    "price": "18.99",
+    "category": "Business",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81-QB7nD4-DL.jpg",
+    "rating": 4.4,
+    "reviewCount": 2856
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "description": "A groundbreaking narrative of humanity's creation and evolution.",
+    "narrator": "Derek Perkins",
+    "durationMinutes": 464,
+    "price": "23.99",
+    "category": "Science",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81WmojBxvbL.jpg",
+    "rating": 4.6,
+    "reviewCount": 3245
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "description": "A spellbinding amalgam of murder mystery, family saga, and love story.",
+    "narrator": "Simon Vance",
+    "durationMinutes": 465,
+    "price": "20.99",
+    "category": "Mystery",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81Kc8OsbDxL.jpg",
+    "rating": 4.3,
+    "reviewCount": 1765
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "description": "An intimate and inspiring memoir by the former First Lady of the United States.",
+    "narrator": "Michelle Obama",
+    "durationMinutes": 768,
+    "price": "26.99",
+    "category": "Biography",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+    "rating": 4.8,
+    "reviewCount": 5621
+  },
+  {
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton M. Christensen",
+    "description": "When new technologies cause great firms to fail.",
+    "narrator": "Don Leslie",
+    "durationMinutes": 336,
+    "price": "19.99",
+    "category": "Technology",
+    "coverImageUrl": "https://images-na.ssl-images-amazon.com/images/I/71q7JE9RHhL.jpg",
+    "rating": 4.5,
+    "reviewCount": 2134
+  }
+]
