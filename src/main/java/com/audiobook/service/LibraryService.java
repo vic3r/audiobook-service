@@ -9,7 +9,6 @@ import com.audiobook.repository.AudiobookRepository;
 import com.audiobook.repository.LibraryItemRepository;
 import com.audiobook.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -43,7 +42,6 @@ public class LibraryService {
         return items.stream().map(this::convertToDto).collect(Collectors.toList());
     }
     
-    @CacheEvict(value = "library", key = "#userId")
     public LibraryItemDto addToLibrary(String userId, String audiobookId) {
         User user = userRepository.findById(userId)
             .orElseThrow(() -> new RuntimeException("User not found"));
@@ -77,7 +75,6 @@ public class LibraryService {
         return convertToDto(item);
     }
     
-    @CacheEvict(value = "library", key = "#userId")
     public LibraryItemDto updatePlaybackPosition(String userId, String libraryItemId, Integer positionSeconds) {
         LibraryItem item = libraryItemRepository.findById(libraryItemId)
             .orElseThrow(() -> new RuntimeException("Library item not found"));
@@ -107,7 +104,6 @@ public class LibraryService {
         return convertToDto(item);
     }
     
-    @CacheEvict(value = "library", key = "#userId")
     public LibraryItemDto toggleFavorite(String userId, String libraryItemId) {
         LibraryItem item = libraryItemRepository.findById(libraryItemId)
             .orElseThrow(() -> new RuntimeException("Library item not found"));
